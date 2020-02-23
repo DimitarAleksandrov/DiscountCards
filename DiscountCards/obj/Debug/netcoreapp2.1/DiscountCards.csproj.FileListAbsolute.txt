@@ -1,0 +1,11 @@
+E:\Soft Uni C# Projects\I Prime Holding\DiscountCards\DiscountCards\bin\Debug\netcoreapp2.1\DiscountCards.deps.json
+E:\Soft Uni C# Projects\I Prime Holding\DiscountCards\DiscountCards\bin\Debug\netcoreapp2.1\DiscountCards.runtimeconfig.json
+E:\Soft Uni C# Projects\I Prime Holding\DiscountCards\DiscountCards\bin\Debug\netcoreapp2.1\DiscountCards.runtimeconfig.dev.json
+E:\Soft Uni C# Projects\I Prime Holding\DiscountCards\DiscountCards\bin\Debug\netcoreapp2.1\DiscountCards.dll
+E:\Soft Uni C# Projects\I Prime Holding\DiscountCards\DiscountCards\bin\Debug\netcoreapp2.1\DiscountCards.pdb
+E:\Soft Uni C# Projects\I Prime Holding\DiscountCards\DiscountCards\obj\Debug\netcoreapp2.1\DiscountCards.csprojAssemblyReference.cache
+E:\Soft Uni C# Projects\I Prime Holding\DiscountCards\DiscountCards\obj\Debug\netcoreapp2.1\DiscountCards.csproj.CoreCompileInputs.cache
+E:\Soft Uni C# Projects\I Prime Holding\DiscountCards\DiscountCards\obj\Debug\netcoreapp2.1\DiscountCards.AssemblyInfoInputs.cache
+E:\Soft Uni C# Projects\I Prime Holding\DiscountCards\DiscountCards\obj\Debug\netcoreapp2.1\DiscountCards.AssemblyInfo.cs
+E:\Soft Uni C# Projects\I Prime Holding\DiscountCards\DiscountCards\obj\Debug\netcoreapp2.1\DiscountCards.dll
+E:\Soft Uni C# Projects\I Prime Holding\DiscountCards\DiscountCards\obj\Debug\netcoreapp2.1\DiscountCards.pdb
