@@ -2,43 +2,26 @@
 {
     using System;
 
-    public class Gold : ICard
+    public class Gold : Card
     {
-        private decimal turnover;
         private double discountRate;
 
         private const double initialDiscountRate = 2;
         private const double upperLimitDiscountRate = 10;
 
-        public Gold(string owner)
+        public Gold(string owner) : base(owner)
         {
-            this.turnover = 0;
-            this.Owner = owner;
             this.discountRate = initialDiscountRate;
         }
 
-        public string Owner { get; }
-
-        public decimal Turnover
+        public override double GetDiscountRate()
         {
-            get => this.turnover;
-            set
-            {
-                if (value >= 0)
-                {
-                    this.turnover = value;
-                }
-            }
-        }
-
-        public double GetDiscountRate()
-        {
-            if (turnover < 100)
+            if (base.Turnover < 100)
             {
                 return this.discountRate;
             }
 
-            double growth = Math.Floor((double)turnover / 100);
+            double growth = Math.Floor((double)base.Turnover / 100);
             this.discountRate += growth;
 
             if (this.discountRate > upperLimitDiscountRate)

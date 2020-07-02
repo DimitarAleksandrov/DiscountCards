@@ -1,6 +1,6 @@
 ﻿namespace DiscountCards.Cards
 {
-    public interface ICard
+    public interface ICard 
     {
         string Owner { get; }
         decimal Turnover { get; set; }

@@ -39,7 +39,6 @@
                 Console.WriteLine("Please enter valid information");
                 throw;
             }
-
             var card = PayDesk.CreateCart(owner, cardType);
             var textToPrind = PayDesk.calculateResultToPrint(turnover, purchaseValue, card);
             Console.WriteLine(textToPrind);
@@ -59,6 +58,7 @@
             {
                 return CardTypes.BRONZE;
             }
+            
             throw new ArgumentException("Please enter one of this three different types of discount cards: gold, silver or bronze!");
         }
     }
