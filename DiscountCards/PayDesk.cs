@@ -6,21 +6,16 @@
 
     public class PayDesk
     {
-        public static ICard CreateCart(string owner, CardTypes cardType)
+        public static ICard CreateCart(string owner, string cardType)
         {
-            if (cardType == CardTypes.GOLD)
+            switch (cardType)
             {
-                return new Gold(owner);
+                case CardTypes.gold: return new Gold(owner);
+                case CardTypes.silver: return new Silver(owner);
+                case CardTypes.bronze: return new Bronze(owner);
+                default:
+                    throw new ArgumentException("Please enter one of this three different types of discount cards: gold, silver or bronze!");
             }
-            else if (cardType == CardTypes.SILVER)
-            {
-                return new Silver(owner);
-            }
-            else if (cardType == CardTypes.BRONZE)
-            {
-                return new Bronze(owner);
-            }
-            throw new ArgumentException("Please enter one of this three different types of discount cards: gold, silver or bronze!");
         }
 
         public static string calculateResultToPrint(decimal turnover, double purchaseValue, ICard card)
@@ -39,5 +34,6 @@
 
             return builder.ToString();
         }
+
     }
 }
